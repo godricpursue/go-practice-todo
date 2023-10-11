@@ -1,0 +1,22 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Compiled Go binary
+*.exe
+*.exe~
+*.test
+*.prof
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# End of the created directory
+__pycache__/
+.cache/
+dist/
+__init__.py
+
+# Exclude the .env file
+.env
